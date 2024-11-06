@@ -1,102 +1,24 @@
 ---
 title: What is the colour of the sun?
-
 description: >-
-  Hi, I'm abel-yelin, creator of Googlies. I'm excited to welcome you to our project
-  and look forward to your contributions in making Googlies even better!
+  Hi, this is 1/50 of the Googlies project. What is the colour of the sun?
 date: '2024-08-16T03:57:46.153Z'
 ---
-# Contributing to Googlies
 
-Hello there! I'm abel-yelin, the creator of Googlies. I'm thrilled that you're interested in contributing to our project. This guide is designed to help you understand how you can be a part of building and improving Googlies. Whether you're fixing bugs, adding new features, or improving documentation, your contributions are incredibly valuable and deeply appreciated. Let's work together to make Googlies even better!
+![What is the colour of the sun?](/What-is-the-colour-of-the-sun.png)
 
-First off, thank you for considering contributing to Googlies! It's people like you that make Googlies such a great tool.
+# The Color of the Sun: A Star That Can't Decide What to Wear
 
-## Code of Conduct
+Have you ever squinted up at the sky, rubbed your eyes, and thought, "What color is the Sun, anyway?" It's a fair question, and like most things in the universe, the answer is both simple and complex. To put it plainly, the Sun is… whatever color it feels like, depending on where you are, the time of day, and how many physics classes you've managed to survive. But let's start with the basics, because nothing invites a little existential crisis like thinking too hard about the Sun's wardrobe.
 
-By participating in this project, you are expected to uphold our Code of Conduct. Please report unacceptable behavior to [project_email@example.com].
+## A Star with a Serious Identity Crisis
 
-## How Can I Contribute?
+If the Sun were a person, it'd be the one who looks different every time you see them—blond one day, brunette the next, showing up to work with purple hair on Friday. The Sun, you see, is technically white. Yes, that's right. It emits all colors of the visible spectrum, which combine to form a light that appears mostly white. But tell that to anyone who's watched a sunrise or sunset, where it shifts from fiery red to orange, pink, and sometimes even purple, depending on atmospheric conditions and your level of romantic angst.
 
-### Reporting Bugs
+## The Atmospheric Dress Code: A Trick of the Air
 
-This section guides you through submitting a bug report for Googlies. Following these guidelines helps maintainers and the community understand your report, reproduce the behavior, and find related reports.
+Let's talk about Earth's atmosphere—the Sun's personal stylist, really. When light from our star enters the atmosphere, it encounters a carnival of particles and gas molecules. Now, the short wavelengths (blue and violet) scatter like confetti at a parade, while longer wavelengths (red, orange, yellow) keep marching straight through. This is why, when the Sun is high overhead, we get a "yellow" star, but when it dips toward the horizon, the increased thickness of the atmosphere filters out even more blue, and we're left with those warm, fiery tones. If you ever feel the need to explain the meaning of "horizon" to someone, just tell them it's where the Sun goes to change clothes.
 
-**Before Submitting A Bug Report**
+## A Star in Space: The Fashion Forward Sun
 
-* Check the documentation for a list of common questions and problems.
-* Ensure the bug was not already reported by searching on GitHub under [Issues](https://github.com/yourusername/Googlies/issues).
-
-**How Do I Submit A (Good) Bug Report?**
-
-Bugs are tracked as [GitHub issues](https://guides.github.com/features/issues/). Create an issue and provide the following information:
-
-* Use a clear and descriptive title for the issue to identify the problem.
-* Describe the exact steps which reproduce the problem in as many details as possible.
-* Provide specific examples to demonstrate the steps.
-
-### Suggesting Enhancements
-
-This section guides you through submitting an enhancement suggestion for Googlies, including completely new features and minor improvements to existing functionality.
-
-**Before Submitting An Enhancement Suggestion**
-
-* Check if the enhancement has already been suggested.
-* Determine which repository the enhancement should be suggested in.
-
-**How Do I Submit A (Good) Enhancement Suggestion?**
-
-Enhancement suggestions are tracked as [GitHub issues](https://guides.github.com/features/issues/). Create an issue and provide the following information:
-
-* Use a clear and descriptive title for the issue to identify the suggestion.
-* Provide a step-by-step description of the suggested enhancement in as many details as possible.
-* Provide specific examples to demonstrate the steps.
-
-### Your First Code Contribution
-
-Unsure where to begin contributing to Googlies? You can start by looking through these `beginner` and `help-wanted` issues:
-
-* [Beginner issues](https://github.com/yourusername/Googlies/labels/beginner) - issues which should only require a few lines of code, and a test or two.
-* [Help wanted issues](https://github.com/yourusername/Googlies/labels/help%20wanted) - issues which should be a bit more involved than `beginner` issues.
-
-### Pull Requests
-
-The process described here has several goals:
-
-- Maintain Googlies's quality
-- Fix problems that are important to users
-- Engage the community in working toward the best possible Googlies
-- Enable a sustainable system for Googlies's maintainers to review contributions
-
-Please follow these steps to have your contribution considered by the maintainers:
-
-1. Follow all instructions in [the template](PULL_REQUEST_TEMPLATE.md)
-2. Follow the [styleguides](#styleguides)
-3. After you submit your pull request, verify that all [status checks](https://help.github.com/articles/about-status-checks/) are passing
-
-## Styleguides
-
-### Git Commit Messages
-
-* Use the present tense ("Add feature" not "Added feature")
-* Use the imperative mood ("Move cursor to..." not "Moves cursor to...")
-* Limit the first line to 72 characters or less
-* Reference issues and pull requests liberally after the first line
-
-### JavaScript Styleguide
-
-All JavaScript must adhere to [JavaScript Standard Style](https://standardjs.com/).
-
-### Documentation Styleguide
-
-* Use [Markdown](https://daringfireball.net/projects/markdown/).
-
-## License
-
-By contributing, you agree that your contributions will be licensed under its MIT License.
-
-## Questions?
-
-Don't hesitate to contact the project maintainers if you have any questions or need further clarification on how to contribute.
-
-Thank you for your interest in contributing to Googlies! We look forward to your contributions and working together to make Googlies even better.
+Imagine the Sun, free from Earth's atmospheric meddling, just floating out in the cosmos. No air, no particles, no trendy scattering effect—just pure, unadulterated sunshine. Here, our star finally gets to show its true colors, which are... white. Brilliantly, piercingly, even boringly white. You see, in the vacuum of space, there's nothing to bend or filter the Sun's light, so we finally see it as it really is—a cosmic disco ball with an all-access pass to every color of the rainbow.
