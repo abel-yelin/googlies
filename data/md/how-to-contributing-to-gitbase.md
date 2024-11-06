@@ -1,5 +1,5 @@
 ---
-title: today Googlies daily puzzle durov for november 7 2024
+title: What is the colour of the sun?
 
 description: >-
   Hi, I'm abel-yelin, creator of Googlies. I'm excited to welcome you to our project
