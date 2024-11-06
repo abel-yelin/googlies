@@ -1,5 +1,5 @@
 ---
-title: today Googlies daily puzzle durov for november 6 2024
+title: Which one is a berry - banana or a blackberry?
 description: >-
   This guide will walk you through the process of viewing, editing, and creating
   new articles using the admin panel.
