@@ -31,14 +31,15 @@ export default function Home() {
         <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl">
           <TypeWriter 
             text="Googlies on Google" 
-            delay={150}
-            showCursor={true}
+            delay={150}  // 可以调整打字速度
             className="inline-block"
           />
         </h1>
-        <h2 className="text-2xl tracking-tighter sm:text-3xl md:text-3xl lg:text-3xl">Simple questions with surprising answers. Be the first to search for the answers or simply search "Googlies" to stay ahead.</h2>
+        <h2 className="text-2xl tracking-tighter sm:text-3xl md:text-3xl lg:text-3xl">
+          Here Is Today&apos;s Simple questions with surprising answers. Be the first to search for the answers or simply search "Googlies" to stay ahead.
+        </h2>
         <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl">
-        50 Googlies—quirky questions that seem to have obvious answers, but hold surprising truths when searched for!.
+          50 Googlies—quirky questions that seem to have obvious answers, but hold surprising truths when searched for!.
         </p>
       </section>
       <section className="my-12">
