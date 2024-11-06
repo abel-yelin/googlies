@@ -1,6 +1,6 @@
 # Major
 
-[Major](https://Major.app/) is an open-source dynamic website solution without a traditional database, built with Next.js, Tailwind CSS, and Shadcn/UI. It leverages GitHub as a content management system, providing a seamless way to create and manage website content.
+[Major](https://aibesttop.com/) is an open-source dynamic website solution without a traditional database, built with Next.js, Tailwind CSS, and Shadcn/UI. It leverages GitHub as a content management system, providing a seamless way to create and manage website content.
 
 ![Major](https://toimg.xyz/file/5aa892c8e8385232fcdf3.png)
 
@@ -72,7 +72,7 @@ Visit `http://localhost:3000` to see your Major instance running locally.
    - `ACCESS_PASSWORD`
 4. Deploy the project.
 
-For a detailed deployment guide, please refer to our [Installation and Deployment Guide](https://Major.app/posts/Major-install-guide).
+For a detailed deployment guide, please refer to our [Installation and Deployment Guide](https://aibesttop.com/posts/Major-install-guide).
 
 ## Usage
 
@@ -83,7 +83,7 @@ For a detailed deployment guide, please refer to our [Installation and Deploymen
 
 ## Contributing
 
-We welcome contributions to Major! Please read our [Contributing Guide](https://Major.app/posts/how-to-contributing-to-Major) for details on our code of conduct and the process for submitting pull requests.
+We welcome contributions to Major! Please read our [Contributing Guide](https://aibesttop.com/posts/how-to-contributing-to-Major) for details on our code of conduct and the process for submitting pull requests.
 
 ## License
 

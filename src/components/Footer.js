@@ -36,17 +36,17 @@ export function Footer() {
             <h3 className="text-sm font-semibold text-gray-600 tracking-wider uppercase">Connect</h3>
             <ul className="mt-4 space-y-4">
               <li>
-                <a href="https://Major.app/" target="_blank" className="text-base text-gray-500 hover:text-gray-900">
+                <a href="https://aibesttop.com/" target="_blank" className="text-base text-gray-500 hover:text-gray-900">
                   Major
                 </a>
               </li>
               <li>
-                <a href="https://github.com/qiayue/Major" target="_blank" className="text-base text-gray-500 hover:text-gray-900">
+                <a href="https://github.com/abel-yelin/googlies" target="_blank" className="text-base text-gray-500 hover:text-gray-900">
                   GitHub
                 </a>
               </li>
               <li>
-                <a href="https://twitter.com/gefei55" target="_blank" className="text-base text-gray-500 hover:text-gray-900">
+                <a href="https://x.com/aigweb3" target="_blank" className="text-base text-gray-500 hover:text-gray-900">
                   Twitter
                 </a>
               </li>
