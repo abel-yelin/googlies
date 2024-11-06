@@ -1,15 +1,16 @@
 ---
-title: Contributing to GitBase
+title: today major daily puzzle durov for november 7 2024
+
 description: >-
-  Hi, I'm Qiayue, creator of GitBase. I'm excited to welcome you to our project
-  and look forward to your contributions in making GitBase even better!
+  Hi, I'm Qiayue, creator of Major. I'm excited to welcome you to our project
+  and look forward to your contributions in making Major even better!
 date: '2024-08-16T03:57:46.153Z'
 ---
-# Contributing to GitBase
+# Contributing to Major
 
-Hello there! I'm Qiayue, the creator of GitBase. I'm thrilled that you're interested in contributing to our project. This guide is designed to help you understand how you can be a part of building and improving GitBase. Whether you're fixing bugs, adding new features, or improving documentation, your contributions are incredibly valuable and deeply appreciated. Let's work together to make GitBase even better!
+Hello there! I'm Qiayue, the creator of Major. I'm thrilled that you're interested in contributing to our project. This guide is designed to help you understand how you can be a part of building and improving Major. Whether you're fixing bugs, adding new features, or improving documentation, your contributions are incredibly valuable and deeply appreciated. Let's work together to make Major even better!
 
-First off, thank you for considering contributing to GitBase! It's people like you that make GitBase such a great tool.
+First off, thank you for considering contributing to Major! It's people like you that make Major such a great tool.
 
 ## Code of Conduct
 
@@ -19,12 +20,12 @@ By participating in this project, you are expected to uphold our Code of Conduct
 
 ### Reporting Bugs
 
-This section guides you through submitting a bug report for GitBase. Following these guidelines helps maintainers and the community understand your report, reproduce the behavior, and find related reports.
+This section guides you through submitting a bug report for Major. Following these guidelines helps maintainers and the community understand your report, reproduce the behavior, and find related reports.
 
 **Before Submitting A Bug Report**
 
 * Check the documentation for a list of common questions and problems.
-* Ensure the bug was not already reported by searching on GitHub under [Issues](https://github.com/yourusername/gitbase/issues).
+* Ensure the bug was not already reported by searching on GitHub under [Issues](https://github.com/yourusername/Major/issues).
 
 **How Do I Submit A (Good) Bug Report?**
 
@@ -36,7 +37,7 @@ Bugs are tracked as [GitHub issues](https://guides.github.com/features/issues/).
 
 ### Suggesting Enhancements
 
-This section guides you through submitting an enhancement suggestion for GitBase, including completely new features and minor improvements to existing functionality.
+This section guides you through submitting an enhancement suggestion for Major, including completely new features and minor improvements to existing functionality.
 
 **Before Submitting An Enhancement Suggestion**
 
@@ -53,19 +54,19 @@ Enhancement suggestions are tracked as [GitHub issues](https://guides.github.com
 
 ### Your First Code Contribution
 
-Unsure where to begin contributing to GitBase? You can start by looking through these `beginner` and `help-wanted` issues:
+Unsure where to begin contributing to Major? You can start by looking through these `beginner` and `help-wanted` issues:
 
-* [Beginner issues](https://github.com/yourusername/gitbase/labels/beginner) - issues which should only require a few lines of code, and a test or two.
-* [Help wanted issues](https://github.com/yourusername/gitbase/labels/help%20wanted) - issues which should be a bit more involved than `beginner` issues.
+* [Beginner issues](https://github.com/yourusername/Major/labels/beginner) - issues which should only require a few lines of code, and a test or two.
+* [Help wanted issues](https://github.com/yourusername/Major/labels/help%20wanted) - issues which should be a bit more involved than `beginner` issues.
 
 ### Pull Requests
 
 The process described here has several goals:
 
-- Maintain GitBase's quality
+- Maintain Major's quality
 - Fix problems that are important to users
-- Engage the community in working toward the best possible GitBase
-- Enable a sustainable system for GitBase's maintainers to review contributions
+- Engage the community in working toward the best possible Major
+- Enable a sustainable system for Major's maintainers to review contributions
 
 Please follow these steps to have your contribution considered by the maintainers:
 
@@ -98,4 +99,4 @@ By contributing, you agree that your contributions will be licensed under its MI
 
 Don't hesitate to contact the project maintainers if you have any questions or need further clarification on how to contribute.
 
-Thank you for your interest in contributing to GitBase! We look forward to your contributions and working together to make GitBase even better.
+Thank you for your interest in contributing to Major! We look forward to your contributions and working together to make Major even better.

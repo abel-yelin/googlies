@@ -1,32 +1,32 @@
 [
   {
-    "name": "Next.js",
+    "name": "puzzle durov today",
     "description": "The React Framework for the Web",
     "url": "https://nextjs.org/"
   },
   {
-    "name": "Tailwind CSS",
+    "name": "Major Durov Puzzle",
     "description": "A utility-first CSS framework",
     "url": "https://tailwindcss.com/"
   },
   {
-    "name": "Shadcn/ui",
+    "name": "Major",
     "description": "Re-usable components built with Radix UI and Tailwind CSS",
     "url": "https://ui.shadcn.com/"
   },
   {
-    "name": "Vercel",
+    "name": "Telegram mini-games",
     "description": "Cloud platform for static sites and Serverless Functions",
     "url": "https://vercel.com/"
   },
   {
-    "name": "Github.com",
+    "name": "a tap-to-earn game",
     "description": "The world's leading platform for version control and collaborative software development.",
     "url": "https://github.com/"
   },
   {
-    "name": "Woy.ai",
+    "name": "aibesttop.com",
     "description": "AI Tools Directory",
-    "url": "https://woy.ai"
+    "url": "https://aibesttop.com"
   }
 ]
