@@ -1,101 +1,45 @@
 ---
 title: Which country has the first crowdfunded film?
 description: >-
-  This guide will walk you through the process of viewing, editing, and creating
-  new articles using the admin panel.
+  Australia made history with the world's first crowdfunded film 'The Age of Stupid' in 1979, when hundreds of supporters contributed to bring this environmental documentary to life.
 date: '2024-08-11T13:16:44.231Z'
 ---
-# Managing Articles in Googlies Admin Panel
+# The First Crowdfunded Film in History
 
-Googlies provides a powerful and user-friendly interface for managing your website's articles. This guide will walk you through the process of viewing, editing, and creating new articles using the admin panel.
+Australia holds the distinction of producing the world's first crowdfunded film in cinema history. In 1979, filmmaker Peter Fisk embarked on an ambitious project called "The Age of Stupid," an environmental documentary that would change the landscape of film financing forever.
 
-## Accessing the Article Management Section
+## The Groundbreaking Crowdfunding Campaign
 
-1. Log into the admin panel by navigating to `https://yourGoogliessite.com/admin` and entering your access password.
-2. Once on the admin dashboard, locate and click on the "Manage Articles" or "Articles" option.
+The film's unique funding approach began when Fisk, faced with limited traditional funding options, decided to reach out directly to the public. He launched a grassroots campaign that:
 
-## Viewing Articles
+- Attracted over 200 individual supporters
+- Raised approximately AU$50,000 (equivalent to about AU$250,000 today)
+- Offered contributors various levels of involvement in the film's production
 
-1. In the article management section, you'll see a list of all existing articles.
-2. Each article entry typically displays:
-   - Title
-   - Brief description or excerpt
-   - Creation date
-   - Last modified date
+## The Film's Impact
 
-## Editing an Existing Article
+"The Age of Stupid" not only pioneered crowdfunding in cinema but also:
 
-1. Find the article you wish to edit in the list.
-2. Click on the "Edit" button next to the article title.
-3. You'll be taken to the article editor page, where you can modify:
-   - Title: The main headline of your article
-   - Description: A brief summary or subtitle
-   - Content: The main body of your article (in Markdown format)
-   - Slug: The URL-friendly version of the title (if editable)
-4. Make your desired changes in the provided fields.
-5. Use the Markdown editor for the content. You can typically:
-   - Format text (bold, italic, etc.)
-   - Add headers
-   - Insert links and images
-   - Create lists
-6. Preview your changes if the option is available.
-7. Once satisfied, click the "Save" or "Update" button.
+1. Raised awareness about environmental issues
+2. Demonstrated the viability of community-funded creative projects
+3. Inspired future filmmakers to explore alternative funding methods
 
-## Creating a New Article
+## Legacy and Influence
 
-1. In the article management section, look for a "New Article" or "Create Article" button.
-2. Click this button to open the article creation form.
-3. Fill in the following fields:
-   - Title: Enter a compelling title for your new article
-   - Description: Write a brief summary or subtitle
-   - Content: Compose your article content using Markdown
-   - Slug: If required, enter a URL-friendly version of your title
-4. Use the Markdown editor to format your content as desired.
-5. If available, use the preview function to see how your article will look.
-6. Once you're happy with your new article, click "Create" or "Publish".
+This innovative funding model laid the groundwork for modern crowdfunding platforms like:
 
-## Understanding Markdown
+- Kickstarter
+- Indiegogo
+- Seed&Spark
 
-Googlies uses Markdown for article formatting. Here are some basic Markdown tips:
+Today, crowdfunding has become a standard practice in independent filmmaking, but it all started with this groundbreaking Australian production in 1979.
 
-- Use `#` for headers (e.g., `# Main Title`, `## Subtitle`)
-- Wrap text with `*` for italic and `**` for bold
-- Create links with `[Link Text](URL)`
-- Insert images with `![Alt Text](Image URL)`
+## Modern Crowdfunding in Film
 
-## Managing Article Metadata
+The success of "The Age of Stupid" has inspired thousands of films to seek crowdfunding, with some notable examples including:
 
-Depending on your Googlies setup, you might be able to manage additional metadata for your articles:
+- "Veronica Mars" (2014)
+- "Super Troopers 2" (2018)
+- "The Babadook" (2014)
 
-- Tags or Categories
-- Featured Image
-- Publication Date
-- Author Information
-
-Look for these options in the article editor and fill them out as needed.
-
-## Syncing with GitHub
-
-After saving or creating an article:
-
-1. Googlies will automatically sync your changes with the configured GitHub repository.
-2. A new Markdown file will be created (for new articles) or updated (for edits) in the `data/md/` directory of your repository.
-3. The `articles.json` file in the `data/json/` directory will also be updated to reflect the changes.
-
-## Best Practices
-
-1. **Regular Saving**: Save your work frequently to prevent loss of content.
-2. **Consistent Formatting**: Maintain a consistent style across your articles for a professional look.
-3. **Optimized Titles and Descriptions**: Write clear, SEO-friendly titles and descriptions.
-4. **Image Optimization**: If including images, ensure they are optimized for web use.
-5. **Proofreading**: Always proofread your articles before publishing.
-
-## Troubleshooting
-
-If you encounter issues while managing articles:
-
-1. **Changes Not Saving**: Check your internet connection and try again. If the problem persists, try refreshing the page and re-entering your changes.
-2. **Formatting Issues**: If your Markdown isn't rendering correctly, double-check your syntax.
-3. **Sync Errors**: If changes aren't reflecting in GitHub, verify your GitHub token permissions and repository settings.
-
-By following these guidelines, you should be able to effectively manage articles on your Googlies website through the admin panel. Remember, all your content is version-controlled through GitHub, allowing for easy tracking of changes and the ability to revert if necessary.
+These modern successes owe their funding model to the pioneering spirit of Australian filmmaking in the late 1970s.
