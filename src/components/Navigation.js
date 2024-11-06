@@ -6,6 +6,7 @@ import { usePathname, useRouter } from 'next/navigation'
 import { Github } from 'lucide-react'
 import { cn } from "@/lib/utils"
 import { Button } from "@/components/ui/button"
+import Image from 'next/image'
 
 const navItems = [
   { path: '/', label: 'Home' },
@@ -57,7 +58,14 @@ export function Navigation() {
       <div className="container flex h-16 items-center justify-between">
         <div className="flex gap-6 md:gap-10">
           <Link href="/" className="flex items-center space-x-2">
-            <span className="inline-block font-bold">Major</span>
+            <Image
+              src="/googlelogo_color_272x92dp.png"
+              alt="Googlies"
+              width={92}
+              height={31}
+              className="hover:opacity-90 transition-opacity"
+              priority
+            />
           </Link>
           <nav className="hidden md:flex gap-6">
             {navItems.map((item) => (
@@ -76,7 +84,7 @@ export function Navigation() {
         </div>
         <div className="flex items-center gap-4">
           <Link
-            href="https://github.com/qiayue/Major"
+            href="https://github.com/abel-yelin/Googlies"
             target="_blank"
             rel="noopener noreferrer"
             className="text-muted-foreground hover:text-foreground"

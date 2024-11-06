@@ -7,6 +7,7 @@ import ArticleList from '@/components/ArticleList'
 import { Metadata } from 'next'
 import { YouTubeEmbed } from '@/components/YouTubeEmbed';
 import { featuredVideos } from '@/config/videos';
+import { TypeWriter } from '@/components/TypeWriter'
 
 interface YouTubeEmbedProps {
   thumbnailUrl?: string;
@@ -14,8 +15,8 @@ interface YouTubeEmbedProps {
 }
 
 export const metadata: Metadata = {
-  title: 'puzzle durov today',
-  description: 'Here Is Todays "Major" Telegram Game Puzzle Durov Combo.',
+  title: 'Googlies on Google',
+  description: 'Googlies on Google: A curiosity-driven game for search.',
 }
 
 export default function Home() {
@@ -28,23 +29,28 @@ export default function Home() {
       
       <section className="text-center space-y-4">
         <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl">
-          puzzle durov today
+          <TypeWriter 
+            text="Googlies on Google" 
+            delay={150}
+            showCursor={true}
+            className="inline-block"
+          />
         </h1>
-        <h2 className="text-2xl tracking-tighter sm:text-3xl md:text-3xl lg:text-3xl">Here Is Today&apos;s &quot;Major&quot; Telegram Game Puzzle Durov Combo.</h2>
+        <h2 className="text-2xl tracking-tighter sm:text-3xl md:text-3xl lg:text-3xl">Simple questions with surprising answers. Be the first to search for the answers or simply search "Googlies" to stay ahead.</h2>
         <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl">
-        Here Is Today&apos;s &quot;Major&quot; Telegram Game Puzzle Durov Combo,MAJOR is now featured in Bitget Pre-Market, giving users the chance to engage in OTC token trades ahead of spot trading. This is an excellent opportunity to enhance your returns!.
+        50 Googlies—quirky questions that seem to have obvious answers, but hold surprising truths when searched for!.
         </p>
       </section>
       <section className="my-12">
-        <h2 className="text-2xl font-bold mb-6 text-center">精选视频</h2>
-        <div className="grid gap-8 md:grid-cols-2 max-w-6xl mx-auto">
+        <h2 className="text-2xl font-bold mb-6 text-center">Googlies on Google</h2>
+        <div className="space-y-8 max-w-5xl mx-auto px-4">
           {featuredVideos.map((video) => (
             <YouTubeEmbed
               key={video.id}
               videoId={video.id}
               title={video.title}
               description={video.description}
-              className="w-full shadow-lg rounded-lg overflow-hidden"
+              className="w-full"
               thumbnailUrl={video.thumbnailUrl}
             />
           ))}

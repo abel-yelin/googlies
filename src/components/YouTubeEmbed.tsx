@@ -22,8 +22,8 @@ export function YouTubeEmbed({
   const [isPlaying, setIsPlaying] = useState(false);
 
   return (
-    <div className={`w-full ${className}`}>
-      <div className="relative aspect-video w-full overflow-hidden rounded-lg">
+    <div className={`max-w-3xl mx-auto ${className}`}>
+      <div className="relative aspect-video w-full overflow-hidden rounded-xl shadow-lg">
         {!isPlaying ? (
           <div 
             className="relative w-full h-full cursor-pointer group"
@@ -35,11 +35,10 @@ export function YouTubeEmbed({
               fill
               className="object-cover"
             />
-            {/* 播放按钮 */}
-            <div className="absolute inset-0 flex items-center justify-center">
-              <div className="w-16 h-16 bg-black/70 rounded-full flex items-center justify-center group-hover:bg-red-600 transition-colors">
+            <div className="absolute inset-0 flex items-center justify-center bg-black/10 group-hover:bg-black/20 transition-colors">
+              <div className="w-20 h-20 bg-black/70 rounded-full flex items-center justify-center group-hover:bg-red-600 transition-all transform group-hover:scale-110">
                 <svg 
-                  className="w-8 h-8 text-white" 
+                  className="w-10 h-10 text-white" 
                   fill="currentColor" 
                   viewBox="0 0 24 24"
                 >
@@ -58,7 +57,6 @@ export function YouTubeEmbed({
           />
         )}
       </div>
-      {/* 可选的标题和描述 */}
       {(title || description) && (
         <div className="mt-4">
           {title && <h3 className="text-lg font-semibold">{title}</h3>}

@@ -9,7 +9,7 @@ export function Footer() {
           <div>
             <h3 className="text-sm font-semibold text-gray-600 tracking-wider uppercase">About</h3>
             <p className="mt-4 text-base text-gray-500">
-              Major is an open-source dynamic website solution without a traditional database, built with Next.js and powered by GitHub.
+              Googlies is an open-source dynamic website solution without a traditional database, built with Next.js and powered by GitHub.
             </p>
           </div>
           <div>
@@ -37,7 +37,7 @@ export function Footer() {
             <ul className="mt-4 space-y-4">
               <li>
                 <a href="https://aibesttop.com/" target="_blank" className="text-base text-gray-500 hover:text-gray-900">
-                  Major
+                  Googlies
                 </a>
               </li>
               <li>
@@ -55,7 +55,7 @@ export function Footer() {
         </div>
         <div className="mt-8 border-t border-gray-200 pt-8">
           <p className="text-base text-gray-400 text-center">
-            &copy; {new Date().getFullYear()} Major. All rights reserved.
+            &copy; {new Date().getFullYear()} Googlies. All rights reserved.
           </p>
         </div>
       </div>

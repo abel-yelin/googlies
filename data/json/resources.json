@@ -5,12 +5,12 @@
     "url": "https://nextjs.org/"
   },
   {
-    "name": "Major Durov Puzzle",
+    "name": "Googlies Durov Puzzle",
     "description": "A utility-first CSS framework",
     "url": "https://tailwindcss.com/"
   },
   {
-    "name": "Major",
+    "name": "Googlies",
     "description": "Re-usable components built with Radix UI and Tailwind CSS",
     "url": "https://ui.shadcn.com/"
   },
@@ -29,4 +29,5 @@
     "description": "AI Tools Directory",
     "url": "https://aibesttop.com"
   }
+
 ]

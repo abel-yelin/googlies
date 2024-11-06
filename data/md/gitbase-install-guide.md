@@ -1,12 +1,12 @@
 ---
-title: "today major daily puzzle durov for november 8 2024"
-description: "A comprehensive guide for setting up Major locally and deploying it to Vercel, suitable for beginners."
+title: "today Googlies daily puzzle durov for november 8 2024"
+description: "A comprehensive guide for setting up Googlies locally and deploying it to Vercel, suitable for beginners."
 date: "2024-08-11"
 ---
 
-# Installing and Deploying Major: A Step-by-Step Guide
+# Installing and Deploying Googlies: A Step-by-Step Guide
 
-This guide will walk you through the process of setting up Major on your local machine and deploying it to Vercel. Even if you're new to web development, you should be able to follow these steps to get your Major instance up and running.
+This guide will walk you through the process of setting up Googlies on your local machine and deploying it to Vercel. Even if you're new to web development, you should be able to follow these steps to get your Googlies instance up and running.
 
 ## Prerequisites
 
@@ -23,8 +23,8 @@ This guide will walk you through the process of setting up Major on your local m
 3. Run the following command:
 
 ```bash
-git clone https://github.com/qiayue/Major.git
-cd Major
+git clone https://github.com/abel-yelin/Googlies.git
+cd Googlies
 ```
 
 ## Step 2: Install Dependencies
@@ -65,7 +65,7 @@ To start the development server, run:
 npm run dev
 ```
 
-Open `http://localhost:3000` in your browser. You should see the Major homepage.
+Open `http://localhost:3000` in your browser. You should see the Googlies homepage.
 
 ## Step 6: Build the Project
 
@@ -81,7 +81,7 @@ If this completes successfully, your project is ready for deployment.
 
 1. Log in to your Vercel account.
 2. Click "New Project".
-3. Import your Major repository from GitHub.
+3. Import your Googlies repository from GitHub.
 4. In the "Configure Project" step, add the following environment variables:
    - `GITHUB_TOKEN`
    - `GITHUB_OWNER`
@@ -92,7 +92,7 @@ If this completes successfully, your project is ready for deployment.
 
 ## Step 8: Test Your Deployment
 
-Once the deployment is complete, Vercel will provide you with a URL. Open this URL in your browser to verify that your Major instance is working correctly.
+Once the deployment is complete, Vercel will provide you with a URL. Open this URL in your browser to verify that your Googlies instance is working correctly.
 
 ## Step 9: Configure Custom Domain (Optional)
 
@@ -101,7 +101,7 @@ If you want to use your own domain:
 1. In your Vercel project dashboard, go to "Settings" > "Domains".
 2. Add your custom domain and follow Vercel's instructions for DNS configuration.
 
-## Using Major
+## Using Googlies
 
 - To access the admin panel, go to `/admin` and use the `ACCESS_PASSWORD` you set.
 - You can now create, edit, and manage articles and resources through the admin interface.
@@ -114,6 +114,6 @@ If you encounter any issues:
 - Check the console in your browser and the Vercel deployment logs for any error messages.
 - Ensure your GitHub token has the necessary permissions (repo scope).
 
-Congratulations! You've successfully set up and deployed your own Major instance. Enjoy your new database-free, GitHub-powered website!
+Congratulations! You've successfully set up and deployed your own Googlies instance. Enjoy your new database-free, GitHub-powered website!
 
-For more help, refer to the [Major documentation](https://github.com/qiayue/Major) or open an issue on the GitHub repository.
+For more help, refer to the [Googlies documentation](https://github.com/abel-yelin/Googlies) or open an issue on the GitHub repository.
