@@ -5,9 +5,9 @@ description: >-
 date: '2024-08-16T03:57:46.153Z'
 ---
 
-![What is the colour of the sun?](/What-is-the-colour-of-the-sun.png)
+![What is the colour of the sun?](/public/What-is-the-colour-of-the-sun.png)
 
-# The Color of the Sun: A Star That Can't Decide What to Wear
+# What is the colour of the sun?
 
 Have you ever squinted up at the sky, rubbed your eyes, and thought, "What color is the Sun, anyway?" It's a fair question, and like most things in the universe, the answer is both simple and complex. To put it plainly, the Sun is… whatever color it feels like, depending on where you are, the time of day, and how many physics classes you've managed to survive. But let's start with the basics, because nothing invites a little existential crisis like thinking too hard about the Sun's wardrobe.
 
