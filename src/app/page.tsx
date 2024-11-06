@@ -36,7 +36,7 @@ export default function Home() {
           />
         </h1>
         <h2 className="text-2xl tracking-tighter sm:text-3xl md:text-3xl lg:text-3xl">
-          Here Is Todays Simple questions with surprising answers. Be the first to search for the answers or simply search &quot;Googlies&quot; to stay ahead.
+          Here Is Todays Simple questions with surprising answers. Be the first to search for the answers or simply search Googlies to stay ahead.
         </h2>
         <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl">
           50 Googlies—quirky questions that seem to have obvious answers, but hold surprising truths when searched for!.
