@@ -5,6 +5,8 @@ import { useState, useEffect } from 'react'
 interface TypeWriterProps {
   text: string
   delay?: number
+  deleteDelay?: number  // 添加删除延迟属性
+  pauseDelay?: number   // 添加暂停延迟属性
   className?: string
   showCursor?: boolean
 }
