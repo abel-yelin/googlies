@@ -1,101 +1,44 @@
 ---
-title: today Googlies daily puzzle durov for november 6 2024
+title: whats-five-times-hotter-than-the-sun-that-can-be-found-on-earth
 description: >-
-  This guide will walk you through the process of viewing, editing, and creating
-  new articles using the admin panel.
+  Lightning strikes can reach temperatures of 50,000°F (27,760°C), which is five times hotter than the sun's surface temperature of 10,000°F
 date: '2024-08-11T13:16:44.231Z'
 ---
-# Managing Articles in Googlies Admin Panel
+# What's Five Times Hotter Than the Sun That Can Be Found on Earth?
 
-Googlies provides a powerful and user-friendly interface for managing your website's articles. This guide will walk you through the process of viewing, editing, and creating new articles using the admin panel.
+Lightning, one of nature's most spectacular phenomena, can reach temperatures that are actually five times hotter than the surface of the sun. While this might sound unbelievable, it's a scientific fact that makes lightning one of the hottest natural occurrences on Earth.
 
-## Accessing the Article Management Section
+## Understanding the Temperature Comparison
 
-1. Log into the admin panel by navigating to `https://yourGoogliessite.com/admin` and entering your access password.
-2. Once on the admin dashboard, locate and click on the "Manage Articles" or "Articles" option.
+1. The sun's surface temperature is approximately 10,000°F (5,500°C)
+2. Lightning can reach temperatures up to 50,000°F (27,760°C)
+3. This makes lightning five times hotter than the sun's surface
 
-## Viewing Articles
+## How Lightning Generates Such Extreme Heat
 
-1. In the article management section, you'll see a list of all existing articles.
-2. Each article entry typically displays:
-   - Title
-   - Brief description or excerpt
-   - Creation date
-   - Last modified date
+1. Electrical Discharge: Lightning is a massive electrical discharge that occurs between clouds or between clouds and the ground
+2. Rapid Air Heating: The electrical current rapidly heats the air around it
+3. Plasma Creation: The extreme heat turns the air into plasma, creating the bright flash we see
 
-## Editing an Existing Article
+## Why Lightning Doesn't Destroy Everything
 
-1. Find the article you wish to edit in the list.
-2. Click on the "Edit" button next to the article title.
-3. You'll be taken to the article editor page, where you can modify:
-   - Title: The main headline of your article
-   - Description: A brief summary or subtitle
-   - Content: The main body of your article (in Markdown format)
-   - Slug: The URL-friendly version of the title (if editable)
-4. Make your desired changes in the provided fields.
-5. Use the Markdown editor for the content. You can typically:
-   - Format text (bold, italic, etc.)
-   - Add headers
-   - Insert links and images
-   - Create lists
-6. Preview your changes if the option is available.
-7. Once satisfied, click the "Save" or "Update" button.
+Despite its incredible temperature:
+- Lightning strikes are extremely brief (lasting only microseconds)
+- The heat is concentrated in a very small channel
+- The surrounding air quickly cools and dissipates the heat
 
-## Creating a New Article
+## Other Hot Things on Earth
 
-1. In the article management section, look for a "New Article" or "Create Article" button.
-2. Click this button to open the article creation form.
-3. Fill in the following fields:
-   - Title: Enter a compelling title for your new article
-   - Description: Write a brief summary or subtitle
-   - Content: Compose your article content using Markdown
-   - Slug: If required, enter a URL-friendly version of your title
-4. Use the Markdown editor to format your content as desired.
-5. If available, use the preview function to see how your article will look.
-6. Once you're happy with your new article, click "Create" or "Publish".
+While lightning is the hottest natural phenomenon, there are other extremely hot things on Earth:
+- Plasma torches (up to 49,700°F)
+- Nuclear fusion reactors (up to 180 million°F in controlled environments)
+- Particle accelerators (reaching temperatures hotter than the sun's core)
 
-## Understanding Markdown
+## Interesting Facts About Lightning
 
-Googlies uses Markdown for article formatting. Here are some basic Markdown tips:
+- Lightning strikes Earth about 100 times per second
+- A single bolt can contain up to one billion volts of electricity
+- The average lightning bolt is about 1-2 inches in diameter
+- Lightning can heat the air around it to temperatures five times hotter than the sun's surface
 
-- Use `#` for headers (e.g., `# Main Title`, `## Subtitle`)
-- Wrap text with `*` for italic and `**` for bold
-- Create links with `[Link Text](URL)`
-- Insert images with `![Alt Text](Image URL)`
-
-## Managing Article Metadata
-
-Depending on your Googlies setup, you might be able to manage additional metadata for your articles:
-
-- Tags or Categories
-- Featured Image
-- Publication Date
-- Author Information
-
-Look for these options in the article editor and fill them out as needed.
-
-## Syncing with GitHub
-
-After saving or creating an article:
-
-1. Googlies will automatically sync your changes with the configured GitHub repository.
-2. A new Markdown file will be created (for new articles) or updated (for edits) in the `data/md/` directory of your repository.
-3. The `articles.json` file in the `data/json/` directory will also be updated to reflect the changes.
-
-## Best Practices
-
-1. **Regular Saving**: Save your work frequently to prevent loss of content.
-2. **Consistent Formatting**: Maintain a consistent style across your articles for a professional look.
-3. **Optimized Titles and Descriptions**: Write clear, SEO-friendly titles and descriptions.
-4. **Image Optimization**: If including images, ensure they are optimized for web use.
-5. **Proofreading**: Always proofread your articles before publishing.
-
-## Troubleshooting
-
-If you encounter issues while managing articles:
-
-1. **Changes Not Saving**: Check your internet connection and try again. If the problem persists, try refreshing the page and re-entering your changes.
-2. **Formatting Issues**: If your Markdown isn't rendering correctly, double-check your syntax.
-3. **Sync Errors**: If changes aren't reflecting in GitHub, verify your GitHub token permissions and repository settings.
-
-By following these guidelines, you should be able to effectively manage articles on your Googlies website through the admin panel. Remember, all your content is version-controlled through GitHub, allowing for easy tracking of changes and the ability to revert if necessary.
+This incredible natural phenomenon demonstrates that even on Earth, we can find temperatures that exceed those found on the surface of our nearest star, making lightning one of nature's most powerful and fascinating displays of energy.

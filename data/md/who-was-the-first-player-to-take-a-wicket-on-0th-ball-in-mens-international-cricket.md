@@ -1,5 +1,5 @@
 ---
-title: today Googlies daily puzzle durov for november 6 2024
+title: who-was-the-first-player-to-take-a-wicket-on-0th-ball-in-mens-international-cricket
 description: >-
   This guide will walk you through the process of viewing, editing, and creating
   new articles using the admin panel.

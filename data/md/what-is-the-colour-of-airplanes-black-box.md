@@ -1,101 +1,61 @@
 ---
-title: today Googlies daily puzzle durov for november 6 2024
+title: what-is-the-colour-of-airplanes-black-box
 description: >-
-  This guide will walk you through the process of viewing, editing, and creating
-  new articles using the admin panel.
+  Despite its name, airplane black boxes are actually bright orange or red in color to make them easily visible during aircraft accident investigations.
 date: '2024-08-11T13:16:44.231Z'
 ---
-# Managing Articles in Googlies Admin Panel
+# The Color of Airplane Black Boxes
 
-Googlies provides a powerful and user-friendly interface for managing your website's articles. This guide will walk you through the process of viewing, editing, and creating new articles using the admin panel.
+Despite being commonly known as "black boxes," airplane flight recorders are actually painted bright orange or red. This distinctive coloring serves a crucial purpose in aviation safety and accident investigation.
 
-## Accessing the Article Management Section
+## Why Are They Called Black Boxes?
 
-1. Log into the admin panel by navigating to `https://yourGoogliessite.com/admin` and entering your access password.
-2. Once on the admin dashboard, locate and click on the "Manage Articles" or "Articles" option.
+The term "black box" is a bit of a misnomer. The nickname originated during World War II, referring to early flight recording devices that were housed in dark-colored boxes. The name stuck, even though the color changed significantly.
 
-## Viewing Articles
+## The Actual Color and Its Purpose
 
-1. In the article management section, you'll see a list of all existing articles.
-2. Each article entry typically displays:
-   - Title
-   - Brief description or excerpt
-   - Creation date
-   - Last modified date
+1. **Bright Orange**: Modern flight recorders are painted a distinctive bright orange or international orange color.
+2. **Reflective Strips**: They also feature reflective strips to enhance visibility.
+3. **Purpose**: This vibrant coloring helps search teams locate the device among aircraft wreckage or in underwater searches.
 
-## Editing an Existing Article
+## Components of Flight Recorders
 
-1. Find the article you wish to edit in the list.
-2. Click on the "Edit" button next to the article title.
-3. You'll be taken to the article editor page, where you can modify:
-   - Title: The main headline of your article
-   - Description: A brief summary or subtitle
-   - Content: The main body of your article (in Markdown format)
-   - Slug: The URL-friendly version of the title (if editable)
-4. Make your desired changes in the provided fields.
-5. Use the Markdown editor for the content. You can typically:
-   - Format text (bold, italic, etc.)
-   - Add headers
-   - Insert links and images
-   - Create lists
-6. Preview your changes if the option is available.
-7. Once satisfied, click the "Save" or "Update" button.
+There are typically two types of flight recorders:
 
-## Creating a New Article
+1. **Flight Data Recorder (FDR)**
+   - Records technical flight data
+   - Painted bright orange
+   - Located in the aircraft's tail section
 
-1. In the article management section, look for a "New Article" or "Create Article" button.
-2. Click this button to open the article creation form.
-3. Fill in the following fields:
-   - Title: Enter a compelling title for your new article
-   - Description: Write a brief summary or subtitle
-   - Content: Compose your article content using Markdown
-   - Slug: If required, enter a URL-friendly version of your title
-4. Use the Markdown editor to format your content as desired.
-5. If available, use the preview function to see how your article will look.
-6. Once you're happy with your new article, click "Create" or "Publish".
+2. **Cockpit Voice Recorder (CVR)**
+   - Records cockpit audio
+   - Also painted bright orange
+   - Usually placed near the FDR
 
-## Understanding Markdown
+## Design Features
 
-Googlies uses Markdown for article formatting. Here are some basic Markdown tips:
+The bright coloring is just one of several design features that help in recovery:
 
-- Use `#` for headers (e.g., `# Main Title`, `## Subtitle`)
-- Wrap text with `*` for italic and `**` for bold
-- Create links with `[Link Text](URL)`
-- Insert images with `![Alt Text](Image URL)`
+- Underwater Locator Beacon (ULB)
+- Heat and impact resistant shell
+- Waterproof construction
+- High visibility paint
+- Reflective strips
 
-## Managing Article Metadata
+## International Standards
 
-Depending on your Googlies setup, you might be able to manage additional metadata for your articles:
+The International Civil Aviation Organization (ICAO) mandates:
 
-- Tags or Categories
-- Featured Image
-- Publication Date
-- Author Information
+1. The bright orange/red color for all flight recorders
+2. Reflective materials to assist in location
+3. Specific placement on aircraft
+4. Regular maintenance and inspection
 
-Look for these options in the article editor and fill them out as needed.
+## Historical Context
 
-## Syncing with GitHub
+The evolution of flight recorder coloring:
+- 1950s: Early black-colored units
+- 1960s: Transition to orange coloring
+- Present: Standardized bright orange/red with reflective elements
 
-After saving or creating an article:
-
-1. Googlies will automatically sync your changes with the configured GitHub repository.
-2. A new Markdown file will be created (for new articles) or updated (for edits) in the `data/md/` directory of your repository.
-3. The `articles.json` file in the `data/json/` directory will also be updated to reflect the changes.
-
-## Best Practices
-
-1. **Regular Saving**: Save your work frequently to prevent loss of content.
-2. **Consistent Formatting**: Maintain a consistent style across your articles for a professional look.
-3. **Optimized Titles and Descriptions**: Write clear, SEO-friendly titles and descriptions.
-4. **Image Optimization**: If including images, ensure they are optimized for web use.
-5. **Proofreading**: Always proofread your articles before publishing.
-
-## Troubleshooting
-
-If you encounter issues while managing articles:
-
-1. **Changes Not Saving**: Check your internet connection and try again. If the problem persists, try refreshing the page and re-entering your changes.
-2. **Formatting Issues**: If your Markdown isn't rendering correctly, double-check your syntax.
-3. **Sync Errors**: If changes aren't reflecting in GitHub, verify your GitHub token permissions and repository settings.
-
-By following these guidelines, you should be able to effectively manage articles on your Googlies website through the admin panel. Remember, all your content is version-controlled through GitHub, allowing for easy tracking of changes and the ability to revert if necessary.
+The bright orange color has proven invaluable in numerous aircraft accident investigations, making these critical devices easier to locate and retrieve, ultimately contributing to aviation safety improvements worldwide.

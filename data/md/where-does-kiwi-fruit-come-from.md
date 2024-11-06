@@ -1,101 +1,93 @@
 ---
 title: Where does kiwi fruit come from?
 description: >-
-  This guide will walk you through the process of viewing, editing, and creating
-  new articles using the admin panel.
+  Discover the fascinating journey of kiwi fruit from its origins in China to becoming New Zealand's beloved national fruit and a global agricultural success story.
 date: '2024-08-11T13:16:44.231Z'
 ---
-# Managing Articles in Googlies Admin Panel
+# Where Does Kiwi Fruit Come From?
 
-Googlies provides a powerful and user-friendly interface for managing your website's articles. This guide will walk you through the process of viewing, editing, and creating new articles using the admin panel.
+Despite its strong association with New Zealand, the kiwi fruit's story begins in the Yangtze River Valley of ancient China. Originally known as "yang tao" or "Chinese gooseberry," this fuzzy fruit has traveled across continents to become one of the world's most popular fruits.
 
-## Accessing the Article Management Section
+## Origins in China
 
-1. Log into the admin panel by navigating to `https://yourGoogliessite.com/admin` and entering your access password.
-2. Once on the admin dashboard, locate and click on the "Manage Articles" or "Articles" option.
+1. The kiwi fruit is native to central and eastern China, where it grew wild in the Yangtze River Valley.
+2. For centuries, Chinese people harvested wild kiwi fruits and used them both for food and traditional medicine.
+3. The earliest written record of kiwi fruit dates back to the 12th century during the Song Dynasty.
 
-## Viewing Articles
+## Journey to New Zealand
 
-1. In the article management section, you'll see a list of all existing articles.
-2. Each article entry typically displays:
-   - Title
-   - Brief description or excerpt
-   - Creation date
-   - Last modified date
+1. In 1904, Mary Isabel Fraser, a New Zealand school principal, brought the first kiwi seeds to New Zealand from China.
+2. New Zealand nursery owner Alexander Allison planted the first seeds in 1906.
+3. The fruit thrived in New Zealand's climate, leading to commercial cultivation in the 1940s.
 
-## Editing an Existing Article
+## The Name Change
 
-1. Find the article you wish to edit in the list.
-2. Click on the "Edit" button next to the article title.
-3. You'll be taken to the article editor page, where you can modify:
-   - Title: The main headline of your article
-   - Description: A brief summary or subtitle
-   - Content: The main body of your article (in Markdown format)
-   - Slug: The URL-friendly version of the title (if editable)
-4. Make your desired changes in the provided fields.
-5. Use the Markdown editor for the content. You can typically:
-   - Format text (bold, italic, etc.)
-   - Add headers
-   - Insert links and images
-   - Create lists
-6. Preview your changes if the option is available.
-7. Once satisfied, click the "Save" or "Update" button.
+1. Initially called "Chinese gooseberry" in New Zealand.
+2. In 1959, it was renamed "kiwi fruit" for export marketing purposes:
+   - To avoid Cold War-era anti-Communist sentiment
+   - To associate it with New Zealand (where the kiwi bird is a national symbol)
+   - To make it more appealing to international markets
 
-## Creating a New Article
+## Global Expansion
 
-1. In the article management section, look for a "New Article" or "Create Article" button.
-2. Click this button to open the article creation form.
-3. Fill in the following fields:
-   - Title: Enter a compelling title for your new article
-   - Description: Write a brief summary or subtitle
-   - Content: Compose your article content using Markdown
-   - Slug: If required, enter a URL-friendly version of your title
-4. Use the Markdown editor to format your content as desired.
-5. If available, use the preview function to see how your article will look.
-6. Once you're happy with your new article, click "Create" or "Publish".
+The kiwi fruit's popularity spread worldwide:
 
-## Understanding Markdown
+- 1960s: Began exporting to America
+- 1970s: European markets opened up
+- 1980s: Global cultivation expanded to:
+  - Italy
+  - Chile
+  - France
+  - Greece
+  - Japan
 
-Googlies uses Markdown for article formatting. Here are some basic Markdown tips:
+## Modern Production
 
-- Use `#` for headers (e.g., `# Main Title`, `## Subtitle`)
-- Wrap text with `*` for italic and `**` for bold
-- Create links with `[Link Text](URL)`
-- Insert images with `![Alt Text](Image URL)`
+Today, the main kiwi fruit producing countries are:
 
-## Managing Article Metadata
+1. China (largest producer)
+2. Italy
+3. New Zealand
+4. Iran
+5. Chile
+6. Greece
 
-Depending on your Googlies setup, you might be able to manage additional metadata for your articles:
+## Varieties and Cultivation
 
-- Tags or Categories
-- Featured Image
-- Publication Date
-- Author Information
+Several varieties of kiwi fruit exist:
 
-Look for these options in the article editor and fill them out as needed.
+- Hayward: The common fuzzy kiwi
+- Golden Kiwi: Yellow flesh, sweeter taste
+- Kiwi berries: Small, grape-sized varieties
+- Red kiwi: Newly developed variety with red flesh
 
-## Syncing with GitHub
+## Growing Conditions
 
-After saving or creating an article:
+Kiwi fruits require specific conditions to thrive:
 
-1. Googlies will automatically sync your changes with the configured GitHub repository.
-2. A new Markdown file will be created (for new articles) or updated (for edits) in the `data/md/` directory of your repository.
-3. The `articles.json` file in the `data/json/` directory will also be updated to reflect the changes.
+- Temperate climate
+- Well-drained soil
+- Protection from strong winds
+- Regular rainfall or irrigation
+- Winter chilling period
+- Support structures for vines
 
-## Best Practices
+## Economic Impact
 
-1. **Regular Saving**: Save your work frequently to prevent loss of content.
-2. **Consistent Formatting**: Maintain a consistent style across your articles for a professional look.
-3. **Optimized Titles and Descriptions**: Write clear, SEO-friendly titles and descriptions.
-4. **Image Optimization**: If including images, ensure they are optimized for web use.
-5. **Proofreading**: Always proofread your articles before publishing.
+The kiwi fruit industry has become significant:
 
-## Troubleshooting
+- Major export commodity for New Zealand
+- Important agricultural product in Italy and China
+- Growing market in organic and sustainable farming
+- Year-round availability through global production
 
-If you encounter issues while managing articles:
+## Cultural Significance
 
-1. **Changes Not Saving**: Check your internet connection and try again. If the problem persists, try refreshing the page and re-entering your changes.
-2. **Formatting Issues**: If your Markdown isn't rendering correctly, double-check your syntax.
-3. **Sync Errors**: If changes aren't reflecting in GitHub, verify your GitHub token permissions and repository settings.
+The kiwi fruit represents:
 
-By following these guidelines, you should be able to effectively manage articles on your Googlies website through the admin panel. Remember, all your content is version-controlled through GitHub, allowing for easy tracking of changes and the ability to revert if necessary.
+- New Zealand's agricultural innovation
+- Cross-cultural agricultural exchange
+- Successful international marketing
+- Agricultural adaptability
+
+This humble fruit from China has truly become a global success story, demonstrating how agricultural products can transcend borders and cultures to become internationally beloved foods.
