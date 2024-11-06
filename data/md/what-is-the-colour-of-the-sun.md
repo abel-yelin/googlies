@@ -5,7 +5,7 @@ description: >-
 date: '2024-08-16T03:57:46.153Z'
 ---
 
-![What is the colour of the sun?](https://github.com/abel-yelin/googlies/blob/main/public/What-is-the-colour-of-%20the-sun.png)
+![What is the colour of the sun?](https://raw.githubusercontent.com/abel-yelin/googlies/refs/heads/main/public/What-is-the-colour-of-%20the-sun.png)
 
 # What is the colour of the sun?
 
