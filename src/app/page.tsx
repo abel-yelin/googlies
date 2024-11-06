@@ -57,9 +57,9 @@ export default function Home() {
           ))}
         </div>
       </section>
-
-      <ResourceList resources={resources} />
       <ArticleList articles={allPostsData} />
+      <ResourceList resources={resources} />
+    
 
     </div>
   )
