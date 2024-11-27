@@ -9,7 +9,7 @@ export function Footer() {
           <div>
             <h3 className="text-sm font-semibold text-gray-600 tracking-wider uppercase">About</h3>
             <p className="mt-4 text-base text-gray-500">
-              Googlies is an open-source dynamic website solution without a traditional database, built with Next.js and powered by GitHub.
+              Googlies on Google is designed to transform how people experience online searches by tapping into the power of curiosity.
             </p>
           </div>
           <div>
