@@ -41,8 +41,8 @@ export function Footer() {
                 </a>
               </li>
               <li>
-                <a href="https://github.com/abel-yelin/googlies" target="_blank" className="text-base text-gray-500 hover:text-gray-900">
-                  GitHub
+                <a href="https://www.tiktokwrapped.app/" target="_blank" className="text-base text-gray-500 hover:text-gray-900">
+                  tiktokwrapped
                 </a>
               </li>
               <li>
