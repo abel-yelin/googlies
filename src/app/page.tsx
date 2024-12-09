@@ -43,7 +43,7 @@ export default function Home() {
         </p>
       </section>
       <section className="my-12">
-        <h2 className="text-2xl font-bold mb-6 text-center">Googlies on Google</h2>
+        <a href="https://www.tiktokwrapped.app/" className="bg-red-500 text-white font-bold py-2 px-4 rounded text-center">here we go</a>
         <div className="space-y-8 max-w-5xl mx-auto px-4">
           {featuredVideos.map((video) => (
             <YouTubeEmbed
