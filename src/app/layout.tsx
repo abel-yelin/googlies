@@ -39,6 +39,12 @@ export default function RootLayout({ children }: RootLayoutProps) {
             gtag('config', 'G-KCL5MFKDKE');
           `}
         </Script>
+
+        <Script 
+          async 
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5177457324079072"
+          crossOrigin="anonymous"
+        />
       </head>
       <body className={inter.className}>
         <Layout>{children}</Layout>
