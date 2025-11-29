@@ -60,7 +60,7 @@ export function Footer() {
         </div>
         <div className="mt-8 border-t border-gray-200 pt-8">
           <p className="text-base text-gray-400 text-center">
-            &copy; {new Date().getFullYear()} Googlies. 本网站采用哥飞的开源模板.
+            &copy; {new Date().getFullYear()} Googlies. .
           </p>
         </div>
       </div>
