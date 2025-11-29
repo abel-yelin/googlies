@@ -30,6 +30,11 @@ export function Footer() {
                   Articles
                 </Link>
               </li>
+              <li>
+                <Link href="/brainrot-link-scanner" className="text-base text-gray-500 hover:text-gray-900">
+                  Brainrot Link Scanner
+                </Link>
+              </li>
             </ul>
           </div>
           <div>

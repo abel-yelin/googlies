@@ -12,6 +12,7 @@ const navItems = [
   { path: '/', label: 'Home' },
   { path: '/resources', label: 'Resources' },
   { path: '/posts', label: 'Articles' },
+  { path: '/brainrot-link-scanner', label: 'Brainrot Scanner' },
 ]
 
 export function Navigation() {
