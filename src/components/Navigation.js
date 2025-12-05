@@ -13,6 +13,7 @@ const navItems = [
   { path: '/resources', label: 'Resources' },
   { path: '/posts', label: 'Articles' },
   { path: '/brainrot-link-scanner', label: 'Brainrot Scanner' },
+  { path: '/discord-wrapped', label: 'Discord Wrapped' },
 ]
 
 export function Navigation() {
