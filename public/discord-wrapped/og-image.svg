@@ -1,0 +1,39 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0f172a" />
+      <stop offset="0.5" stop-color="#0b2241" />
+      <stop offset="1" stop-color="#0f172a" />
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(250 150) rotate(45) scale(500)">
+      <stop stop-color="#5eead4" stop-opacity="0.9" />
+      <stop offset="1" stop-color="#5eead4" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="glow2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(900 500) rotate(-30) scale(480)">
+      <stop stop-color="#7dd3fc" stop-opacity="0.9" />
+      <stop offset="1" stop-color="#7dd3fc" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)" />
+  <rect width="1200" height="630" fill="url(#glow)" />
+  <rect width="1200" height="630" fill="url(#glow2)" />
+  <rect x="80" y="120" width="1040" height="360" rx="28" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.12)" />
+  <rect x="110" y="150" width="320" height="60" rx="16" fill="rgba(94,234,212,0.15)" stroke="rgba(94,234,212,0.35)" />
+  <text x="130" y="192" fill="#5eead4" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="24">Discord Wrapped 2024</text>
+  <text x="110" y="250" fill="white" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="52">Private, share-ready recap for your servers</text>
+  <text x="110" y="310" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="26">
+    Highlight top channels, streaks, and reaction spikes—no bots installed, nothing stored.
+  </text>
+  <rect x="110" y="340" width="320" height="88" rx="18" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.18)" />
+  <text x="140" y="378" fill="white" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="24">Top channel · #checkpoints</text>
+  <text x="140" y="405" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="18">Most active at 9:00 PM UTC</text>
+  <rect x="470" y="340" width="260" height="88" rx="18" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.18)" />
+  <text x="500" y="378" fill="white" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="24">143k reactions</text>
+  <text x="500" y="405" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="18">Yearly engagement</text>
+  <rect x="760" y="340" width="320" height="88" rx="18" fill="rgba(94,234,212,0.12)" stroke="rgba(94,234,212,0.35)" />
+  <text x="790" y="378" fill="#0f172a" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="24">Launch Discord Wrapped</text>
+  <text x="790" y="405" fill="#0f172a" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="18">tiktokwrapped.app/discord-wrapped</text>
+  <circle cx="980" cy="210" r="48" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.15)" />
+  <text x="950" y="220" fill="#5eead4" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="32">24h</text>
+  <text x="940" y="245" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="16">share link</text>
+</svg>
