@@ -44,7 +44,7 @@ export default function Home() {
       </section>
       <section className="my-12">
         <div className="text-center">
-          <a href="https://www.cpmcalculator.site/" className="bg-red-500 text-white font-bold py-4 px-8 rounded text-center hover:scale-110 transition-transform duration-300">here we go</a>
+          <a href="https://tiktokwrapped.app/discord-wrapped" className="bg-red-500 text-white font-bold py-4 px-8 rounded text-center hover:scale-110 transition-transform duration-300">discord wrapped</a>
         </div>
         <div className="space-y-8 max-w-5xl mx-auto px-4">
           {featuredVideos.map((video) => (
