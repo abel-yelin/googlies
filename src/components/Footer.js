@@ -64,9 +64,14 @@ export function Footer() {
           </div>
         </div>
         <div className="mt-8 border-t border-gray-200 pt-8">
-          <p className="text-base text-gray-400 text-center">
-            &copy; {new Date().getFullYear()} Googlies. .
-          </p>
+          <div className="flex flex-col items-center justify-center space-y-4">
+            <p className="text-base text-gray-400 text-center">
+              &copy; {new Date().getFullYear()} Googlies. .
+            </p>
+            <a href="https://aibesttop.com" target="_blank" rel="noopener noreferrer">
+              <img src="https://aibesttop.com/badges/dark.svg" alt="AI Best Top - AI Tools Directory" width="120" height="40" />
+            </a>
+          </div>
         </div>
       </div>
     </footer>
