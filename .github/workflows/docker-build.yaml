@@ -1,0 +1,68 @@
+name: Build and Push Docker Image
+
+on:
+  push:
+    branches: ['main', 'dev']
+  pull_request:
+    branches: ['main', 'dev']
+  workflow_dispatch:
+
+env:
+  REGISTRY: ghcr.io
+  IMAGE_NAME: ${{ github.repository }}
+  SVR_NAME: ${{ github.event.repository.name }}
+
+jobs:
+  build-and-push:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Log in to the Container registry
+        if: github.event_name != 'pull_request'
+        uses: docker/login-action@v3
+        with:
+          registry: ${{ env.REGISTRY }}
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Extract metadata (tags, labels) for Docker
+        id: meta
+        uses: docker/metadata-action@v5
+        with:
+          images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
+          tags: |
+            type=sha,format=long
+            type=ref,event=branch
+            type=ref,event=tag
+            type=raw,value=latest,enable={{is_default_branch}}
+
+      - name: Build and push Docker image
+        uses: docker/build-push-action@v5
+        with:
+          context: .
+          push: ${{ github.event_name != 'pull_request' }}
+          tags: ${{ steps.meta.outputs.tags }}
+          labels: ${{ steps.meta.outputs.labels }}
+
+  deploy-dokploy:
+    needs: build-and-push
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Dokploy deployment
+        env:
+          DOKPLOY_DEPLOY_HOOK: ${{ secrets.DOKPLOY_DEPLOY_HOOK }}
+        run: |
+          if [ -z "$DOKPLOY_DEPLOY_HOOK" ]; then
+            echo "DOKPLOY_DEPLOY_HOOK is not set. Skipping deployment trigger."
+            exit 0
+          fi
+
+          curl --fail --show-error --silent -X POST "$DOKPLOY_DEPLOY_HOOK"
+          echo "Dokploy deployment triggered."

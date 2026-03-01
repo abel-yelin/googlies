@@ -1,0 +1,19 @@
+# Nixpacks configuration for Dokploy
+# Alternative to Dockerfile - automatically detects and builds Next.js
+
+[phases.build]
+cmds = ["pnpm run build"]
+
+[phases.start]
+cmd = "pnpm run start"
+
+[phases.install]
+cmds = ["pnpm install"]
+
+[variables]
+NODE_ENV = "production"
+PORT = "3000"
+
+[static]
+# Next.js static assets
+public = "public"
