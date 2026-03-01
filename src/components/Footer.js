@@ -46,8 +46,8 @@ export function Footer() {
             <h3 className="text-sm font-semibold text-gray-600 tracking-wider uppercase">Connect</h3>
             <ul className="mt-4 space-y-4">
               <li>
-                <a href="https://tiktokwrapped.online/" target="_blank" className="text-base text-gray-500 hover:text-gray-900">
-                  tiktok wrapped online
+                <a href="https://www.image2url.com/" target="image to url" className="text-base text-gray-500 hover:text-gray-900">
+                  image2url
                 </a>
               </li>
               <li>
