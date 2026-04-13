@@ -7,7 +7,7 @@ import { FOOTER_BADGES_FALLBACK } from '../config/footer-badges';
 
 const DEFAULT_BADGES_CONFIG_URL =
   'https://abel-yelin.github.io/footer-badges-hub/badges.json';
-const FOOTER_BADGES_CONFIG_VERSION = '20260413-stampmaker-align';
+const FOOTER_BADGES_CONFIG_VERSION = '20260413-stampmaker-align-v2';
 
 function withConfigVersion(configUrl: string) {
   const separator = configUrl.includes('?') ? '&' : '?';
@@ -67,7 +67,13 @@ export async function FooterBadgesSlotServer() {
           <span className="mx-2 text-white/40">·</span>
           Last updated: {lastUpdatedText}
         </p>
-        <FooterBadgesMarquee badges={badges} className="w-full" />
+        <FooterBadgesMarquee
+          badges={badges}
+          className="w-full"
+          listClassName="gap-3"
+          itemClassName="h-12"
+          textClassName="text-sm"
+        />
       </div>
     </section>
   );
