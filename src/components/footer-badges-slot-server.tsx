@@ -1,0 +1,54 @@
+import { FooterBadgesMarquee, getRemoteFooterBadges } from '@luolink/footer-badges';
+import { FOOTER_BADGES_FALLBACK } from '../config/footer-badges';
+
+function formatUSDate(date: Date) {
+  const month = date.getMonth() + 1;
+  const day = date.getDate();
+  const year = date.getFullYear();
+  return `${month}/${day}/${year}`;
+}
+
+export async function FooterBadgesSlotServer() {
+  const badges = await getRemoteFooterBadges({
+    configUrl: process.env.FOOTER_BADGES_CONFIG_URL,
+    projectId: process.env.FOOTER_BADGES_PROJECT_ID ?? 'googlies',
+    fallbackBadges: FOOTER_BADGES_FALLBACK,
+    revalidateSeconds: Number(
+      process.env.FOOTER_BADGES_REVALIDATE_SECONDS ?? 3600
+    ),
+  });
+
+  if (badges.length === 0) {
+    return null;
+  }
+
+  const now = new Date();
+  const defaultBrand = 'googlies';
+  const copyrightText =
+    process.env.FOOTER_BADGES_COPYRIGHT ??
+    `© ${now.getFullYear()} ${defaultBrand}. All Rights Reserved.`;
+  const lastUpdatedText =
+    process.env.FOOTER_BADGES_LAST_UPDATED ?? formatUSDate(now);
+
+  return (
+    <section className="border-t border-white/10 bg-[#070a10] text-white">
+      <div className="mx-auto flex w-full max-w-7xl flex-col gap-3 px-4 py-4 sm:px-6 lg:px-8">
+        <p className="text-sm text-white/75">
+          {copyrightText}
+          <span className="mx-2 text-white/40">·</span>
+          Last updated: {lastUpdatedText}
+        </p>
+        <div className="rounded-xl border border-white/15 bg-[#0d121c] px-2 py-2">
+          <FooterBadgesMarquee
+            badges={badges}
+            className="w-full"
+            listClassName="gap-2.5"
+            itemClassName="h-8 rounded-lg border border-white/15 bg-[#05070c] px-2.5 opacity-100 hover:border-white/30"
+            imageClassName="h-5 w-auto"
+            textClassName="border-none px-0 text-xs text-white/85 no-underline"
+          />
+        </div>
+      </div>
+    </section>
+  );
+}
