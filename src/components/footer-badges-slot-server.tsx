@@ -7,6 +7,12 @@ import { FOOTER_BADGES_FALLBACK } from '../config/footer-badges';
 
 const DEFAULT_BADGES_CONFIG_URL =
   'https://abel-yelin.github.io/footer-badges-hub/badges.json';
+const FOOTER_BADGES_CONFIG_VERSION = '20260413-stampmaker-align';
+
+function withConfigVersion(configUrl: string) {
+  const separator = configUrl.includes('?') ? '&' : '?';
+  return `${configUrl}${separator}v=${FOOTER_BADGES_CONFIG_VERSION}`;
+}
 
 function formatUSDate(date: Date) {
   const month = date.getMonth() + 1;
@@ -16,7 +22,9 @@ function formatUSDate(date: Date) {
 }
 
 export async function FooterBadgesSlotServer() {
-  const configUrl = process.env.FOOTER_BADGES_CONFIG_URL ?? DEFAULT_BADGES_CONFIG_URL;
+  const configUrl = withConfigVersion(
+    process.env.FOOTER_BADGES_CONFIG_URL ?? DEFAULT_BADGES_CONFIG_URL
+  );
   const projectId = process.env.FOOTER_BADGES_PROJECT_ID ?? 'googlies';
   const revalidateSeconds = Number(
     process.env.FOOTER_BADGES_REVALIDATE_SECONDS ?? 3600
@@ -59,12 +67,7 @@ export async function FooterBadgesSlotServer() {
           <span className="mx-2 text-white/40">·</span>
           Last updated: {lastUpdatedText}
         </p>
-        <div className="rounded-xl border border-white/15 bg-[#0d121c] px-2 py-2">
-          <FooterBadgesMarquee
-            badges={badges}
-            className="w-full"
-          />
-        </div>
+        <FooterBadgesMarquee badges={badges} className="w-full" />
       </div>
     </section>
   );
