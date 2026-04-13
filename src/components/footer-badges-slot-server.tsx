@@ -1,6 +1,9 @@
 import { FooterBadgesMarquee, getRemoteFooterBadges } from '@luolink/footer-badges';
 import { FOOTER_BADGES_FALLBACK } from '../config/footer-badges';
 
+const DEFAULT_BADGES_CONFIG_URL =
+  'https://abel-yelin.github.io/footer-badges-hub/badges.json';
+
 function formatUSDate(date: Date) {
   const month = date.getMonth() + 1;
   const day = date.getDate();
@@ -10,7 +13,7 @@ function formatUSDate(date: Date) {
 
 export async function FooterBadgesSlotServer() {
   const badges = await getRemoteFooterBadges({
-    configUrl: process.env.FOOTER_BADGES_CONFIG_URL,
+    configUrl: process.env.FOOTER_BADGES_CONFIG_URL ?? DEFAULT_BADGES_CONFIG_URL,
     projectId: process.env.FOOTER_BADGES_PROJECT_ID ?? 'googlies',
     fallbackBadges: FOOTER_BADGES_FALLBACK,
     revalidateSeconds: Number(
