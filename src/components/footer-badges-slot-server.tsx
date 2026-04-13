@@ -63,10 +63,6 @@ export async function FooterBadgesSlotServer() {
           <FooterBadgesMarquee
             badges={badges}
             className="w-full"
-            listClassName="gap-2.5"
-            itemClassName="h-8 rounded-lg border border-white/15 bg-[#05070c] px-2.5 opacity-100 hover:border-white/30"
-            imageClassName="h-5 w-auto"
-            textClassName="border-none px-0 text-xs text-white/85 no-underline"
           />
         </div>
       </div>
