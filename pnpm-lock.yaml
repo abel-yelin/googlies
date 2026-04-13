@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@luolink/footer-badges':
-        specifier: ^0.1.2
-        version: 0.1.2(next@14.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        specifier: ^0.2.0
+        version: 0.2.0(next@14.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@octokit/rest':
         specifier: ^21.0.1
         version: 21.0.2
@@ -184,8 +184,8 @@ packages:
   '@jridgewell/trace-mapping@0.3.25':
     resolution: {integrity: sha512-vNk6aEwybGtawWmy/PzwnGDOjCkLWSD2wqvjGGAgOAwCGWySYXfYoxt00IJkTF+8Lb57DwOb3Aa0o9CApepiYQ==}
 
-  '@luolink/footer-badges@0.1.2':
-    resolution: {integrity: sha512-re24y6CuYteznopblugN/6sJWrVVlfCQFzaptVmM3azDeykIaXD/2fN9To2WCrynCene4DSkI54tQFoRROEa2w==}
+  '@luolink/footer-badges@0.2.0':
+    resolution: {integrity: sha512-7NC/w5kizy7zBu0Zf5nEJ+cn6JtyjNidzEw7CUUlwGXSplRQ9jFjkAU6M2pkazCUhO7W03rzJfPqqpd9VJK4hQ==}
     peerDependencies:
       next: '>=14'
       react: '>=18'
@@ -2506,7 +2506,7 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.0
 
-  '@luolink/footer-badges@0.1.2(next@14.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@luolink/footer-badges@0.2.0(next@14.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
       next: 14.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react: 18.3.1

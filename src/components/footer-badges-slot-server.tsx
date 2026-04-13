@@ -1,4 +1,8 @@
-import { FooterBadgesMarquee, getRemoteFooterBadges } from '@luolink/footer-badges';
+import {
+  FooterBadgesMarquee,
+  getRemoteFooterBadges,
+  getRemoteFooterMeta,
+} from '@luolink/footer-badges';
 import { FOOTER_BADGES_FALLBACK } from '../config/footer-badges';
 
 const DEFAULT_BADGES_CONFIG_URL =
@@ -12,13 +16,24 @@ function formatUSDate(date: Date) {
 }
 
 export async function FooterBadgesSlotServer() {
+  const configUrl = process.env.FOOTER_BADGES_CONFIG_URL ?? DEFAULT_BADGES_CONFIG_URL;
+  const projectId = process.env.FOOTER_BADGES_PROJECT_ID ?? 'googlies';
+  const revalidateSeconds = Number(
+    process.env.FOOTER_BADGES_REVALIDATE_SECONDS ?? 3600
+  );
+
   const badges = await getRemoteFooterBadges({
-    configUrl: process.env.FOOTER_BADGES_CONFIG_URL ?? DEFAULT_BADGES_CONFIG_URL,
-    projectId: process.env.FOOTER_BADGES_PROJECT_ID ?? 'googlies',
+    configUrl,
+    projectId,
     fallbackBadges: FOOTER_BADGES_FALLBACK,
-    revalidateSeconds: Number(
-      process.env.FOOTER_BADGES_REVALIDATE_SECONDS ?? 3600
-    ),
+    revalidateSeconds,
+  });
+
+  const footerMeta = await getRemoteFooterMeta({
+    configUrl,
+    projectId,
+    fallbackMeta: {},
+    revalidateSeconds,
   });
 
   if (badges.length === 0) {
@@ -29,9 +44,12 @@ export async function FooterBadgesSlotServer() {
   const defaultBrand = 'googlies';
   const copyrightText =
     process.env.FOOTER_BADGES_COPYRIGHT ??
+    footerMeta.copyright ??
     `© ${now.getFullYear()} ${defaultBrand}. All Rights Reserved.`;
   const lastUpdatedText =
-    process.env.FOOTER_BADGES_LAST_UPDATED ?? formatUSDate(now);
+    process.env.FOOTER_BADGES_LAST_UPDATED ??
+    footerMeta.lastUpdated ??
+    formatUSDate(now);
 
   return (
     <section className="border-t border-white/10 bg-[#070a10] text-white">
